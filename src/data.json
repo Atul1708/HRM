@@ -1,0 +1,96 @@
+[{
+  "_id": {
+    "$oid": "64c769bbf007234427de504e"
+  },
+  "name": "Kunal Sinha",
+  "email": "kunal11204@gmail.com",
+  "password": "$2b$10$QC4y4qtcwdkF8kZpVVwOBONLXtBJ5CxyNoXsQECTCCAfov8g12Zti",
+  "createdAt": {
+    "$date": "2023-07-31T07:58:51.427Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T07:58:51.427Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c76c253160ec59b2075814"
+  },
+  "name": "Savan Mir",
+  "email": "savanmir4@gamil.com",
+  "password": "$2b$10$NUxp2w54ZzUDTCW5u6YiKuu83HU.pa0cEXxJ0BaBc2anYgJMnEW/O",
+  "phone": {
+    "$numberLong": "8140145325"
+  },
+  "jobrole": "UI/UX",
+  "role": "Employe",
+  "createdAt": {
+    "$date": "2023-07-31T08:09:09.528Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T08:09:09.528Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c76c8a3160ec59b2075816"
+  },
+  "name": "Atul Sharma",
+  "email": "atulsh1708@gmail.com",
+  "password": "$2b$10$JXULxsL/M62NGod4GQ8XTO2Ov570tsLWwaxbzGKkIpk5KNZvtNFWu",
+  "phone": {
+    "$numberLong": "9023964803"
+  },
+  "jobrole": "FrontEnd",
+  "role": "Employe",
+  "createdAt": {
+    "$date": "2023-07-31T08:10:50.056Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T08:10:50.056Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c77d6a5f172f7838660110"
+  },
+  "name": "Sharvan",
+  "email": "parkhisharvan@gmail.com",
+  "password": "$2b$10$Q/0F8tAv8iBZ6ONM.b5pZeQdz/xp1mNtKLylR1P/nfAPMKCDOty2u",
+  "phone": {
+    "$numberLong": "8866294266"
+  },
+  "jobrole": "Django",
+  "role": "Employe",
+  "createdAt": {
+    "$date": "2023-07-31T09:22:50.897Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T09:22:50.897Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "64c78b94b28d6f6483464a0d"
+  },
+  "name": "Sharvan",
+  "email": "parkhisharvassn@gmail.com",
+  "password": "$2b$10$/4gDldwlMtIJOl99TEUFrOKPXZu3gCiICEFDBmWcL5QvXVeoIJBN.",
+  "phone": {
+    "$numberLong": "8866294266"
+  },
+  "jobrole": "Django",
+  "joiningDate": "2023/07/27",
+  "role": "Employe",
+  "createdAt": {
+    "$date": "2023-07-31T10:23:16.145Z"
+  },
+  "updatedAt": {
+    "$date": "2023-07-31T10:23:16.145Z"
+  },
+  "__v": 0
+}]

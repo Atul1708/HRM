@@ -1,0 +1,13 @@
+.table {
+    display: flex;
+    width: 100%;
+
+    .tableContainer {
+        flex: 6;
+        
+        .tableContent {
+            padding: 1rem;
+            margin: auto;
+        }
+    }
+}

@@ -1,0 +1,147 @@
+.auth-form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  background-color: #e1f2fb;
+  //   color: rgb(24,32,77);
+
+  .login-form {
+    position: relative;
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    padding: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+    flex-direction: column;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    h2 {
+      font-size: 2rem;
+      margin: 10px 0;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: rgb(52, 93, 238);
+    }
+
+    .LoginImg {
+      img {
+        width: 150px;
+        display: block;
+        margin: 10px auto;
+      }
+    }
+
+    .email,
+    .password {
+      position: relative;
+      .top {
+        position: absolute;
+        top: -13px;
+        left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #fff;
+        padding: 0.3rem;
+        color: gray;
+        font-size: 0.7rem;
+      }
+    }
+
+    .inpt-grp {
+      width: 100%;
+      input {
+        width: 100%;
+        height: 45px;
+        padding: 10px 20px;
+        margin-bottom: 20px;
+        background-color: #fff;
+        outline: 0;
+        border: 2px solid gray;
+        position: relative;
+        border-radius: 5px;
+  
+        &:focus {
+          border: 2px solid rgb(52, 93, 238);
+        }
+  
+        &:focus ~ .top {
+          color: rgb(52, 93, 238);
+        }
+      }
+    }
+
+    .btns {
+      display: flex;
+      gap: 1rem;
+
+      .login-btn,
+      .link-btn {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding: 10px;
+        color: #fff;
+        border-radius: 5px;
+        font-size: 0.7rem;
+        font-weight: 400;
+        text-transform: uppercase;
+        border: 0;
+        outline: 0;
+        background-color: rgb(52, 93, 238);
+        margin: 10px 0;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .errorMsg {
+    color: red;
+    background-color: rgba(255, 0, 0, 0.242);
+    padding: 25px 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    // width: 200px;
+    font-size: 0.8rem;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+    .close {
+      position: absolute;
+      top: -5px;
+      right: -5px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1rem;
+      background-color: red;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      color: #fff;
+      cursor: pointer;
+    }
+
+  }
+
+  @keyframes show {
+    100% {
+      opacity: 0;
+    }
+  }
+
+}
